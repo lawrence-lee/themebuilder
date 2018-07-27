@@ -1,0 +1,64 @@
+Starting a Gradle Daemon, 6 stopped Daemons could not be reused, use --status for details
+:dependencies
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Dependencies for source set 'main'.
+No dependencies
+
+compileClasspath - Compile classpath for source set 'main'.
+No dependencies
+
+compileOnly - Compile dependencies for source set 'main'.
+No dependencies
+
+cssBuilder - Configures Liferay CSS Builder for this project.
+\--- com.liferay:com.liferay.css.builder:latest.release -> 2.1.0
+     +--- com.liferay:com.liferay.sass.compiler.ruby:2.0.4
+     |    +--- com.liferay:com.liferay.sass.compiler.api:2.0.1
+     |    \--- org.jruby:jruby-complete:1.7.20
+     +--- org.codehaus.plexus:plexus-utils:3.0.15
+     \--- org.sonatype.plexus:plexus-build-api:0.0.7
+
+default - Configuration for default artifacts.
+No dependencies
+
+parentThemes - Configures the parent theme JARs required to build theme files.
++--- com.liferay:com.liferay.frontend.theme.styled:3.0.4
+\--- com.liferay:com.liferay.frontend.theme.unstyled:3.0.4
+
+portalCommonCSS - Configures com.liferay.frontend.css.common for compiling CSS files.
+\--- com.liferay:com.liferay.frontend.css.common:3.0.1
+
+providedCompile - Additional compile classpath for libraries that should not be part of the WAR archive.
+No dependencies
+
+providedRuntime - Additional runtime classpath for libraries that should not be part of the WAR archive.
+No dependencies
+
+runtime - Runtime dependencies for source set 'main'.
+No dependencies
+
+testCompile - Dependencies for source set 'test'.
+No dependencies
+
+testCompileClasspath - Compile classpath for source set 'test'.
+No dependencies
+
+testCompileOnly - Compile dependencies for source set 'test'.
+No dependencies
+
+testRuntime - Runtime dependencies for source set 'test'.
+No dependencies
+
+themeBuilder - Configures Liferay Portal Tools Theme Builder for this project.
+\--- com.liferay:com.liferay.portal.tools.theme.builder:1.1.5
+
+BUILD SUCCESSFUL
+
+Total time: 3.795 secs
