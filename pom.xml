@@ -7,7 +7,7 @@
 	<properties>
 		<com.liferay.portal.tools.theme.builder.outputDir>target/build-theme</com.liferay.portal.tools.theme.builder.outputDir>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    	<com.liferay.frontend.css.common.version>3.0.1</com.liferay.frontend.css.common.version>
+		<com.liferay.frontend.css.common.version>3.0.1</com.liferay.frontend.css.common.version>
 		<com.liferay.frontend.theme.styled.version>3.0.4</com.liferay.frontend.theme.styled.version>
 		<com.liferay.frontend.theme.unstyled.version>3.0.4</com.liferay.frontend.theme.unstyled.version>
 	</properties>
@@ -94,4 +94,4 @@
 			</plugin>
 		</plugins>
 	</build>
-<repositories><repository><id>1532482609192</id><url>https://repository-cdn.liferay.com/nexus/content/groups/public</url></repository></repositories><pluginRepositories><pluginRepository><id>1532482609192</id><url>https://repository-cdn.liferay.com/nexus/content/groups/public</url></pluginRepository></pluginRepositories></project>
+</project>
